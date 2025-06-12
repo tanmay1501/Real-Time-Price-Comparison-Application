@@ -10,9 +10,6 @@
 - [Tech Stack](#tech-stack)
 - [Database Design](#database-design)
 - [How It Works](#how-it-works)
-- [Setup & Usage](#setup--usage)
-- [Contributing](#contributing)
-- [License](#license)
 - [Developed By](#developed-by)
 
 ---
@@ -66,44 +63,6 @@ The MySQL schema was carefully designed for normalization, extensibility, and an
 
 ---
 
-## Setup & Usage
-
-1. **Clone this repository**
-    ```sh
-    git clone https://github.com/tanmay1501/Real-Time-Price-Comparison-Application.git
-    cd Real-Time-Price-Comparison-Application
-    ```
-
-2. **Install Python dependencies**
-    ```sh
-    pip install -r requirements.txt
-    ```
-
-3. **Setup MySQL**
-    - Create a MySQL database using the schema provided in the project report or `db/schema.sql` (if present).
-    - Update database connection settings in the Python ETL script as needed.
-
-4. **Run the scraper & ETL**
-    ```sh
-    python scraper/etl_pipeline.py
-    ```
-
-5. **Query your MySQL database**
-    - Analyze or visualize the data using your favorite BI tool or SQL queries.
-
----
-
-## Contributing
-
-Contributions are welcome! Please open an issue or pull request.
-
----
-
-## License
-
-MIT License
-
----
 
 ## Developed By
 
